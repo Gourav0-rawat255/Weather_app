@@ -2,6 +2,7 @@ console.log('This is java script file')
 
 
 
+
 const weather = document.querySelector('form')
 const dat = document.querySelector('input')
 const first=  document.querySelector('#first')

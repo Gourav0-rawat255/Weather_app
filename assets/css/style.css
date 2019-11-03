@@ -2,9 +2,9 @@ body{
     color: #252423;
     font-family: sans-serif;
     max-width: 650px;
-   margin-top:16 auto;
-    padding:  16px;
-    margin-left: 175px;
+   margin-top:25px auto;
+    padding:  8px;
+    margin-left: 190px;
     background-image: url('/img/weathers.jpg');
     background-size: cover;
     
@@ -27,8 +27,8 @@ body{
 
 footer{
     padding: 16px 0;
-    color: #888888;
-    border-top:  1px solid #eeeeee;
+    color: #000000;
+    border-top:  1px solid #000000;
     margin-top: 16px;  
 }
 header{
