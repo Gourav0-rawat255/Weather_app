@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>Weather</title>
+<link rel="stylesheet" href="/css/style.css">
+
+    </head>
+
+
+    {{!-- <script type="text/javascript">
+window.onload = function()
+{
+    if (window.jQuery)
+    {
+        alert('jQuery is loaded');
+    }
+    else
+    {
+        alert('jQuery is not loaded');
+    }
+}
+</script> --}}
+
+    <body >
+        {{!-- <div class="rip"></div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <script src="jquery.ripples-min.js"></script>
+        <script>
+
+       $(rip).ripples({
+  dropRadius: 10,
+  perturbance: 0.03,
+  
+});
+        </script>
+         --}}
+
+        <div class="content">
+
+          {{>header}}
+
+          <form>
+            <input placeholder="Location" >
+            <button>Search</button>
+        </form>
+
+        <p id="second"></p>
+        <p id="first"></p>
+        
+
+        </div>
+        
+
+    
+
+        {{>footer}}
+       
+
+    
+
+<script src="/js/app.js"></script>
+
+    </body>
+</html>
