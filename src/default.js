@@ -5,4 +5,4 @@ const details = (name= '')=>{
 }
 
 details('gourav')
-details()
+// details()
