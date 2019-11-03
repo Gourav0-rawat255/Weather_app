@@ -15,7 +15,7 @@ const forecast = (latitude, langitude , callback)=>{
 
 
         }else{
-            callback((undefined),'weather is '+body.hourly.data[0].summary + '.The temperature is '+ body.hourly.data[0].temperature+' There is %'+body.hourly.data[0].precipProbability+ ' of raining')
+            callback((undefined),'Weather is '+body.hourly.data[0].summary + '.The temperature is '+ body.hourly.data[0].temperature+'°F. There is %'+body.hourly.data[0].precipProbability+ ' of raining')
 
         }
 
