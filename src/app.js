@@ -122,7 +122,7 @@ app.get('',(req,res)=>{
 app.get('/help',(req,res)=>{
     res.render('help',{
         title:'HELP',
-        info:'we dont need any help',
+        info:'We dont need any help',
         creator:'Goruav Rawat'
     })
 })
@@ -132,7 +132,7 @@ app.get('/about',(req,res)=>{
 
     res.render('about',{
         title:'ABOUT',
-        info:'How about you',
+        info:'How you Doin ?',
         creator:'Rawat'
         
     })
@@ -163,6 +163,7 @@ app.get("/data",(req,res)=>{
               
           }
                res.send({
+                   
                    place,
                    forecast: forecastData,
                    address: req.query.search
