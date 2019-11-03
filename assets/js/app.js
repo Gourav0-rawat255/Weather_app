@@ -10,7 +10,7 @@ const second = document.querySelector('#second')
  weather.addEventListener('submit',(e)=>{
      e.preventDefault()
      const location = dat.value
-     fetch('/data?search=!'+location).then((response)=>{
+     fetch('/data?search='+location).then((response)=>{
         response.json().then((data)=>{
             if(data.error){
                 second.textContent=data.error
